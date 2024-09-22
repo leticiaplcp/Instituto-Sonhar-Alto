@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lilita+One&display=swap');
+
+body{
+    background-color: #E0F0FF;
+    margin: 0%;
+}
+
+/*Menu*/
+li, h1, h2, h3, button, #mensagemSucesso{
+    font-family: "Lilita One", sans-serif;
+}
+p, label{
+    font-family: "Inter", sans-serif;
+}
+
+header img{
+    width: 85%;
+    display: block;
+    margin: auto;
+    margin: 2% auto;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+li{
+    padding: 0% 1%;
+    font-size: 25px;
+    cursor: pointer;
+    
+}
+
+li a{
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 5%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+/*Pagina principal*/
+.banner main{
+    width: 85%;
+    padding: 15px;
+    background-color: #AACAE7;
+    display: block;
+    margin: 2% auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+#principal{
+    display: flex;
+    flex-direction: row;
+}
+#principal  h1{
+    font-size: 35px;
+}
+
+.inicio{
+    width: 40%;
+    padding: 8px 30px ;
+    background-color: #AACAE7;
+    display: block;
+    margin: 2% auto;
+    margin-left: 13%;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+.inicio p{
+    text-align: justify;
+}
+
+.menu-lateral{
+    width: 20%;
+    padding: 8px 40px ;
+    background-color: #AACAE7;
+    display: block;
+    margin: 2% auto;
+    margin-left: 1%;
+    margin-right: 13%;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+/*Projetos*/
+
+.bloco{
+    width: 68%;
+    padding: 8px 30px ;
+    background-color: #AACAE7;
+    display: block;
+    margin: 2% auto;
+    margin-left: 13%;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+.informacoes{
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+    
+}
+
+
+.informacoes img{
+    width: 60%;
+    margin: 2% 3% 2% 1%;
+}
+.informacoes h1{
+    margin-top: 4%;
+}
+
+
+/*Doações*/
+.container {
+   display: flex;            
+   justify-content: center;
+   align-items: center;    
+   height: 80vh;
+}
+  
+form {
+   background-color:  #AACAE7; 
+   padding: 30px;         
+   border-radius: 8px;   
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); 
+   width: 30%;           
+}
+  
+form h1{
+   text-align: center;
+   padding-bottom: 10px;
+}
+
+
+input[type="text"],[type="email"], [type="number"] {
+   font-family: "Inter", sans-serif;
+   font-size: 16px; 
+   padding: 8px;
+   border: 1px solid #ccc;
+   border-radius: 4px; 
+   width: 100%; 
+   box-sizing: border-box; 
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+  
+#opcoes{
+   margin-top: 13px;
+   display: flex;
+   justify-content: space-around;
+}
+button {
+    font-size: 25px; 
+    padding: 10px 15px; 
+    border: none; 
+    border-radius: 4px; 
+    background-color: #097AE1;
+    color: #fff; 
+    cursor: pointer; 
+    display: block;
+    margin: auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); 
+  }
+  
+button:hover {
+    background-color: #0056b3; 
+  }
+
+/*Rodapé*/
+footer{
+    width: 100%;
+    height: 300px;
+    background-color: #E9C55F;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+}
+
+.rodape{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
