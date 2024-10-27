@@ -10,7 +10,7 @@ body{
 li, h1, h2, h3, button, #mensagemSucesso{
     font-family: "Lilita One", sans-serif;
 }
-p, label{
+p, label, span{
     font-family: "Inter", sans-serif;
 }
 
@@ -126,7 +126,7 @@ li a{
    display: flex;            
    justify-content: center;
    align-items: center;    
-   height: 80vh;
+   height: 140vh;
 }
   
 form {
@@ -134,7 +134,8 @@ form {
    padding: 30px;         
    border-radius: 8px;   
    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); 
-   width: 30%;           
+   width: 30%;       
+   
 }
   
 form h1{
@@ -143,16 +144,29 @@ form h1{
 }
 
 
-input[type="text"],[type="email"], [type="number"] {
+input{
    font-family: "Inter", sans-serif;
    font-size: 16px; 
    padding: 8px;
    border: 1px solid #ccc;
    border-radius: 4px; 
-   width: 100%; 
    box-sizing: border-box; 
-   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
 }
+input[type="text"],[type="email"], [type="number"]{
+    width: 100%; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+ }
+
+textarea{
+    font-family: "Inter", sans-serif;
+    font-size: 16px; 
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    width: 100%; 
+    box-sizing: border-box; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+ }
   
 #opcoes{
    margin-top: 13px;
@@ -192,3 +206,4 @@ footer{
     justify-content: space-evenly;
     align-items: center;
 }
+
